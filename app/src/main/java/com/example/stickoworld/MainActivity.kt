@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         // we used the postDelayed(Runnable, time) method
         // to send a message with a delayed time.
         Handler().postDelayed({
-            val intent = Intent(this, MainActivity2::class.java)
+            val intent = Intent(this,MainActivity2::class.java)
             startActivity(intent)
             finish()
         }, 8000) // 8000 is the delayed time in milliseconds.
