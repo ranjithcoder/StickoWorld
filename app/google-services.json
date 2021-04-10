@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730760022498",
+    "project_id": "stickoworld-b7d3a",
+    "storage_bucket": "stickoworld-b7d3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730760022498:android:41dab7cc46d1933f79d1bb",
+        "android_client_info": {
+          "package_name": "com.example.stickoworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730760022498-u9f6mmcrmrb60de2b3lmhsh0hnevurfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNSCOG2j_XQCm0clKVGCNCrzzqCW02Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730760022498-u9f6mmcrmrb60de2b3lmhsh0hnevurfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
