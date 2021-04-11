@@ -6,64 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="40dp"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    tools:contextClickable="">
 
 
-    <RelativeLayout
-        android:layout_width="413dp"
-        android:layout_height="659dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/sign_in_btn"
+            style="@android:style/Widget.DeviceDefault.Button.Small"
+            android:layout_width="302dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="68dp"
+            android:background="@drawable/creative_button"
+            android:drawableLeft="@drawable/googleg_standard_color_18"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="@string/sign_in_with_google"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:backgroundTint="#F4F0F0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.278"
+            app:layout_constraintStart_toStartOf="parent" />
 
-        <ImageSwitcher
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true">
 
 
-        </ImageSwitcher>
-    </RelativeLayout>
-
-    <Button
-        android:id="@+id/sign_in_btn"
-        style="@android:style/Widget.DeviceDefault.Button.Small"
-        android:layout_width="302dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="68dp"
-        android:background="@drawable/creative_button"
-        android:drawableLeft="@drawable/googleg_standard_color_18"
-        android:paddingStart="40dp"
-        android:paddingEnd="40dp"
-        android:text="@string/sign_in_with_google"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:backgroundTint="#F4F0F0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
-        android:layout_width="298dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="15dp"
-        android:paddingStart="40dp"
-        android:paddingEnd="40dp"
-        android:text="@string/continue_with_facebook"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:backgroundTint="#F4F0F0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sign_in_btn"
-        app:layout_constraintVertical_bias="0.1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
