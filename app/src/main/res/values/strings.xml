@@ -1,5 +1,9 @@
 <resources>
     <string name="stickoworld">StickoWorld</string>
     <string name="register">Register</string>
-    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="facebook_app_id">818901245371317</string>
+    <string name="fb_login_protocol_scheme">fb818901245371317</string>
+
 </resources>
