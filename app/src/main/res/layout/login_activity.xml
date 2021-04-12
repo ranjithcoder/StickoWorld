@@ -5,32 +5,62 @@
     android:id="@+id/sign_in_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E8E4E4"
     android:padding="40dp"
-    tools:context=".MainActivity2"
-    tools:contextClickable="">
+    tools:context=".GoogleSignIn">
 
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="375dp"
+            android:layout_height="358dp"
+            android:layout_marginTop="84dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.5"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/animation4" />
 
         <Button
             android:id="@+id/sign_in_btn"
             style="@android:style/Widget.DeviceDefault.Button.Small"
-            android:layout_width="302dp"
-            android:layout_height="54dp"
-            android:layout_marginBottom="68dp"
-            android:background="@drawable/creative_button"
+            android:layout_width="325dp"
+            android:layout_height="71dp"
+            android:layout_marginBottom="32dp"
             android:drawableLeft="@drawable/googleg_standard_color_18"
             android:paddingStart="40dp"
             android:paddingEnd="40dp"
             android:text="@string/sign_in_with_google"
+            android:textStyle="bold"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="18sp"
-            app:backgroundTint="#F4F0F0"
+            app:backgroundTint="#F4F4F4"
+            app:iconTint="#050000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.278"
             app:layout_constraintStart_toStartOf="parent" />
 
-
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/aladin"
+            android:gravity="left"
+            android:text="Hello,There"
+            android:textColor="#151010"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

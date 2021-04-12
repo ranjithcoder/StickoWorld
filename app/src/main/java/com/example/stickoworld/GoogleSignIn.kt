@@ -2,12 +2,8 @@ package com.example.stickoworld
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.CountDownTimer
 import android.util.Log
-import android.view.animation.AnimationUtils
 import android.widget.Button
-import android.widget.ImageSwitcher
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -17,7 +13,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
 @Suppress("DEPRECATION")
-class MainActivity2 : AppCompatActivity() {
+class GoogleSignIn : AppCompatActivity() {
 
     companion object {
         private const val RC_SIGN_IN = 120
