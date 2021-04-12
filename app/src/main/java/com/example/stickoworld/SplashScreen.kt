@@ -7,11 +7,11 @@ import android.os.Handler
 import android.view.WindowManager
 
 @Suppress("DEPRECATION")
-class MainActivity : AppCompatActivity() {
+class SplashScreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.splash_screen)
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
         // we used the postDelayed(Runnable, time) method
         // to send a message with a delayed time.
         Handler().postDelayed({
-            val intent = Intent(this,MainActivity2::class.java)
+            val intent = Intent(this,GoogleSignIn::class.java)
             startActivity(intent)
             finish()
-        }, 8000) // 8000 is the delayed time in milliseconds.
+        }, 5000) // 8000 is the delayed time in milliseconds.
 
 
     }
