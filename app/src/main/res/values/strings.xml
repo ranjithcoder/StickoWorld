@@ -23,4 +23,10 @@
 
     <!--Shared Preference Keys -->
     <string name="preference_fact_type_key">fact_type_pref</string>
+    <string name="your_stickers">Your Stickers</string>
+    <string name="about_us">About Us</string>
+    <string name="great">Great</string>
+    <string name="names">By Ranjith,Sohan,Aditya
+                        For DSC Hackathon.</string>
+
 </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item
+     android:id="@+id/options"
+     android:title="Options"
+     android:orderInCategory="101"
+     app:showAsAction="always"
+     android:icon="@drawable/ic_action_menu">
+
+  <menu>
+   <item
+       android:id="@+id/share"
+       android:title="@string/your_stickers"
+       app:showAsAction="ifRoom"/>
+
+   <item
+       android:id="@+id/about"
+       android:icon="@drawable/ic_info"
+       android:title="About Us"
+       app:showAsAction="ifRoom"/>
+  </menu>
+ </item>
+</menu>
