@@ -3,7 +3,9 @@ package com.example.stickoworld
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.Gravity
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -76,12 +78,16 @@ class GoogleSignIn : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d("SignInActivity", "signInWithCredential:success")
+                    val toast=Toast.makeText(this, "Login Sucess", Toast.LENGTH_SHORT)
+                    toast.setGravity(Gravity.CENTER, 0, 0)
+                    toast.show()
                     val intent = Intent(this, Dashboard::class.java)
                     startActivity(intent)
                     finish()
                 } else {
                     // If sign in fails, display a message to the user.
                     Log.d("SignInActivity", "signInWithCredential:failure")
+                    Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show()
                 }
             }
     }

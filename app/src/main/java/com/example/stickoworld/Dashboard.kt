@@ -1,7 +1,7 @@
 package com.example.stickoworld
 
 
-import android.content.DialogInterface
+import android.app.PendingIntent.getActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -40,12 +40,16 @@ class Dashboard : AppCompatActivity() {
         val builder=AlertDialog.Builder(this)
         builder.setTitle("Are you sure!!")
         builder.setMessage("Do you want to exit?")
-        builder.setPositiveButton("Yes",{ dialogInterface: DialogInterface, i: Int ->
-            finish()
-        })
-        builder.setNegativeButton("No",{ dialogInterface: DialogInterface, i: Int -> })
+        builder.setPositiveButton("Yes"){dialogInterface, which ->
+           finish()
+        }
+        builder.setNegativeButton("No"){dialogInterface, which ->
 
-        builder.show()
+        }
+        // Create the AlertDialog
+        val alertDialog: AlertDialog = builder.create()
+        alertDialog.setCancelable(false)
+        alertDialog.show()
     }
 
 
