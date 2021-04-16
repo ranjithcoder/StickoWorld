@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
  <item
      android:id="@+id/options"
-     android:title="Options"
+     android:title="@string/options"
      android:orderInCategory="101"
      app:showAsAction="always"
      android:icon="@drawable/ic_action_menu">
 
   <menu>
    <item
-       android:id="@+id/share"
+       android:id="@+id/your_stickers"
        android:title="@string/your_stickers"
        app:showAsAction="ifRoom"/>
 
    <item
        android:id="@+id/about"
        android:icon="@drawable/ic_info"
-       android:title="About Us"
+       android:title="@string/about_us"
        app:showAsAction="ifRoom"/>
   </menu>
  </item>
