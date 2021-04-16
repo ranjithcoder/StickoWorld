@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.Gravity
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -78,7 +79,7 @@ class GoogleSignIn : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d("SignInActivity", "signInWithCredential:success")
-                    val toast=Toast.makeText(this, "Login Sucess", Toast.LENGTH_SHORT)
+                    val toast=Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT)
                     toast.setGravity(Gravity.CENTER, 0, 0)
                     toast.show()
                     val intent = Intent(this, Dashboard::class.java)
@@ -92,5 +93,20 @@ class GoogleSignIn : AppCompatActivity() {
             }
     }
 
+    override fun onBackPressed() {
+        val builder= AlertDialog.Builder(this)
+        builder.setTitle("Are you sure!!")
+        builder.setMessage("Do you want to exit?")
+        builder.setPositiveButton("Yes"){dialogInterface, which ->
+            finish()
+        }
+        builder.setNegativeButton("No"){dialogInterface, which ->
+
+        }
+        // Create the AlertDialog
+        val alertDialog: AlertDialog = builder.create()
+        alertDialog.setCancelable(false)
+        alertDialog.show()
+    }
 
 }

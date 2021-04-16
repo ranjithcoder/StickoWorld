@@ -1,19 +1,31 @@
 package com.example.stickoworld
 
 
-import android.app.PendingIntent.getActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
+@Suppress("DEPRECATION")
 class Dashboard : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
+
+       val fab = findViewById<FloatingActionButton>(R.id.fab)
+        fab?.setOnClickListener {
+            val intent = Intent(this, NewStickerPackActivity::class.java)
+            startActivity(intent)
+        }
     }
+
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater=menuInflater
@@ -25,9 +37,10 @@ class Dashboard : AppCompatActivity() {
         when(item.itemId)
         {
             R.id.about->{
-                val ab = AboutDialogue()
+                val ab = AboutDialogFragment()
                 ab.show(supportFragmentManager, "SHOWN")
                 return true
+
             }
             else->{
 
@@ -51,7 +64,8 @@ class Dashboard : AppCompatActivity() {
         alertDialog.setCancelable(false)
         alertDialog.show()
     }
-
+    
 
 }
+
 
