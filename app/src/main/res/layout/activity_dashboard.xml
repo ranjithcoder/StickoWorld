@@ -19,220 +19,401 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="     Cartoon"
-                android:textColor="@color/black"/>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     Cartoon"
+                    android:textColor="@color/black"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/image2"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/image4"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/image5"/>
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/image7"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/shinchan1"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
 
                 <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/image2"/>
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     Cat"
+                    android:textColor="@color/black"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/cat1"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/cat2"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/cat3"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/cat4"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/cat5"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
 
                 <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/image4"/>
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     Akshay Kumar"
+                    android:textColor="@color/black"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/akshaykumar1"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/akshaykumar2"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/akshaykumar3"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/akshaykumar4"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/akshaykumar5"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
 
                 <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/image5"/>
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     Mirzapur"
+                    android:textColor="@color/black"/>
 
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/image7"
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="fitXY"
+                            android:src="@raw/mirzapur1"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="fitXY"
+                            android:src="@raw/mirzapur2"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@raw/mirzapur3"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/mirzapur4"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/mirzapur5"/>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     Welcome"
+                    android:textColor="@color/black"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/welcome8"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/welcome4"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/welcome13"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/welcome10"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/welcome9"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     Animated"
+                    android:textColor="@color/black"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/others1"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/others2"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/others3"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/others4"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@raw/others5"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
 
             </LinearLayout>
 
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="20dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="     Cat"
-                android:textColor="@color/black"/>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+        </ScrollView>
 
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/cat1"/>
 
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/cat2"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/cat3"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/cat4"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/cat5"/>
-
-            </LinearLayout>
-
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="20dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="     Akshay Kumar"
-                android:textColor="@color/black"/>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/akshayKumar1"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/akshayKumar2"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/akshayKumar3"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/akshayKumar4"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/akshayKumar5"/>
-
-            </LinearLayout>
-
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="20dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="     Welcome"
-                android:textColor="@color/black"/>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/welcome8"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/welcome4"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/welcome13"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/welcome10"/>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"/>
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/welcome9"/>
-
-            </LinearLayout>
-
-        </LinearLayout>
 
     </FrameLayout>
 
