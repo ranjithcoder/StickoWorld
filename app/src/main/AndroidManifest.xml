@@ -18,9 +18,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StickoWorld"
         tools:ignore="ExtraText">
-        <activity android:name=".Dashboard"/>
+        <activity android:name=".StickerGallery"/>
         <activity android:name=".GoogleSignIn" />
-        <activity android:name=".NewStickerPackActivity" />
+        <activity android:name=".Profile"/>
+        <activity android:name=".Aboutus"/>
+        <activity android:name=".Invite"/>
+        <activity android:name=".Settings"/>
+        <activity android:name=".Helpme"/>
+        <activity android:name=".Dashboard" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

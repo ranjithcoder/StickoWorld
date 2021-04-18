@@ -38,8 +38,8 @@ class GoogleSignIn : AppCompatActivity() {
         //Firebase Auth instance
         mAuth = FirebaseAuth.getInstance()
 
-        val sign_in_layout=findViewById<Button>(R.id.sign_in_btn)
-        sign_in_layout.setOnClickListener {
+        val signinlayout=findViewById<Button>(R.id.sign_in_btn)
+        signinlayout.setOnClickListener {
             signIn()
         }
     }

@@ -11,7 +11,7 @@
 
     <color name="colorPrimary">#ffffff</color>
     <color name="colorAccent">#fead00</color>
-
+    <color name="yellow">#fead00</color>
     <!--Background remover -->
     <color name="real_black">#b7000000</color>
     <color name="Modal">#b7000000</color>

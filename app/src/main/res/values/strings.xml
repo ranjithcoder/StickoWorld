@@ -29,5 +29,8 @@
     <string name="names">By Ranjith,Sohan,Aditya
                         For DSC Hackathon.</string>
     <string name="options">Options</string>
+    <string name="save">Save</string>
+    <string name="settings">SETTINGS</string>
+    <string name="delete">Delete</string>
 
 </resources>
