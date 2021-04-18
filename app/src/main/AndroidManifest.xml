@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="false"
@@ -18,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StickoWorld"
         tools:ignore="ExtraText">
-        <activity android:name=".StickerGallery"/>
+
         <activity android:name=".GoogleSignIn" />
         <activity android:name=".Profile"/>
         <activity android:name=".Aboutus"/>
@@ -33,6 +34,29 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".StickerGallery"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="mystickerpack"/>
+                <data android:host="sticker"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".AppIndexingUpdateService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
