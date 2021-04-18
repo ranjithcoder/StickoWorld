@@ -20,12 +20,15 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:fillViewport="true"
+            android:background="@color/white"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
@@ -47,8 +50,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/image2"/>
 
@@ -56,24 +59,24 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/image4"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/image5"/>
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/image7"/>
 
@@ -82,8 +85,8 @@
                             android:layout_height="10dp"/>
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/shinchan1"/>
 
@@ -114,8 +117,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/cat1"/>
 
@@ -123,8 +126,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/cat2"/>
 
@@ -132,8 +135,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/cat3"/>
 
@@ -141,8 +144,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/cat4"/>
 
@@ -150,8 +153,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/cat5"/>
 
@@ -181,40 +184,40 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/akshaykumar1"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/akshaykumar2"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/akshaykumar3"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/akshaykumar4"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/akshaykumar5"/>
 
                     </LinearLayout>
@@ -243,8 +246,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="fitXY"
                             android:src="@raw/mirzapur1"/>
 
@@ -252,8 +255,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="fitXY"
                             android:src="@raw/mirzapur2"/>
 
@@ -261,8 +264,8 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:scaleType="centerCrop"
                             android:src="@raw/mirzapur3"/>
 
@@ -270,17 +273,49 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/mirzapur4"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/mirzapur5"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@raw/mirzapur6"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@raw/mirzapur7"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@raw/mirzapur8"/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"/>
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@raw/mirzapur9"/>
 
                     </LinearLayout>
                 </HorizontalScrollView>
@@ -307,40 +342,40 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/welcome8"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/welcome4"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/welcome13"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/welcome10"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/welcome9"/>
 
                     </LinearLayout>
@@ -368,47 +403,48 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/others1"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/others2"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/others3"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/others4"/>
 
                         <Space
                             android:layout_width="10dp"
                             android:layout_height="10dp"/>
                         <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:src="@raw/others5"/>
 
                     </LinearLayout>
 
                 </HorizontalScrollView>
 
-
+                <include
+                    layout="@layout/sticker_package_extension"/>
             </LinearLayout>
 
         </ScrollView>
