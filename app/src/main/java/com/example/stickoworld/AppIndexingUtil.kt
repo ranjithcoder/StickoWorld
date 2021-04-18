@@ -15,6 +15,7 @@ object AppIndexingUtil {
     private const val CONTENT_PROVIDER_STICKER_PACK_NAME = "Firebase Storage Content Pack"
     private const val TAG = "AppIndexingUtil"
     private const val FAILED_TO_INSTALL_STICKERS = "Failed to install stickers"
+    lateinit var AppIndexingUtil: AppIndexingUtil
     fun setStickers(context: Context?, firebaseAppIndex: FirebaseAppIndex) {
         try {
             val stickers = getIndexableStickers()

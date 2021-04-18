@@ -12,7 +12,7 @@ public class AppIndexingUpdateService : JobIntentService() {
     // Job-ID must be unique across your whole app.
     private val UNIQUE_JOB_ID = 42
 
-    open fun enqueueWork(context: Context?) {
+    public fun enqueueWork(context: Context?) {
         enqueueWork(context!!, AppIndexingUpdateService::class.java, UNIQUE_JOB_ID, Intent())
     }
 
