@@ -3,50 +3,58 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/white"
     android:layout_height="match_parent"
+    android:background="@color/bg_row_foreground"
 
 
     android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:padding="20dp"
-        android:background="@color/white">
+        android:layout_width="401dp"
+        android:layout_height="193dp"
+        android:background="@color/white"
+        android:padding="20dp">
 
 
-
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/profile_image"
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:src="@drawable/profile_image"
-            android:layout_centerVertical="true"/>
+            android:layout_width="175dp"
+            android:layout_height="157dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profile_image" />
 
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Random"
-            android:textSize="30sp"
-            android:fontFamily="@font/bungeeregular"
-            android:layout_toRightOf="@+id/profile_image"
             android:layout_centerVertical="true"
-            android:textColor="@color/yellow"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:fontFamily="@font/bungeeregular"
             android:includeFontPadding="false"
-            android:layout_marginLeft="10dp"/>
-
-
+            android:text="Random"
+            android:textColor="@color/yellow"
+            android:textSize="30sp" />
 
 
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/profile_btn"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="0dp"
+        android:background="#D3A51C"
+        android:text="Change profile pic"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFEB3B" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:background="#C8BCBC"
+        android:background="#FAF6F6"
         android:orientation="vertical"
         android:padding="5dp">
 
@@ -57,7 +65,9 @@
 
             android:hint="App Handle"
             android:textColorHint="@color/yellow"
-            app:hintTextColor="@color/white">
+            app:boxBackgroundColor="@color/bg_row_foreground"
+            app:boxStrokeColor="#E6DBDB"
+            app:hintTextColor="@color/bg_row_foreground">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -78,25 +88,26 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="5dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:hint="   E-mail"
             android:textColorHint="@color/yellow"
-            android:layout_marginBottom="5dp">
+            app:boxBackgroundColor="#FFFFFF">
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="  Admin@randomgmail.com"
-                android:textColor="@color/black"
-                android:fontFamily="sans-serif-black"
                 android:drawableLeft="@drawable/khat"
-                android:drawablePadding="5dp"/>
+                android:drawablePadding="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="  Admin@randomgmail.com"
+                android:textColor="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -107,28 +118,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="5dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#FFFFFF"
             android:hint=" Phone Number"
             android:textColorHint="@color/yellow"
-            android:layout_marginBottom="5dp">
+            app:boxBackgroundColor="#FFFFFF">
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" +91-9990009991"
-                android:fontFamily="sans-serif-black"
-                android:textColor="@color/black"
                 android:drawableLeft="@drawable/dialer"
-                android:drawablePadding="5dp"/>
-
-
-
+                android:drawablePadding="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text=" +91-9990009991"
+                android:textColor="@color/black" />
 
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -140,21 +150,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        android:padding="5dp">
 
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Update"
-            android:textColor="@color/yellow"
+            android:layout_marginTop="20dp"
             android:background="@color/white"
             android:fontFamily="@font/bungeeregular"
+            android:text="Update"
+            android:textColor="@color/yellow"
             android:textColorHint="@color/yellow"
-            android:textSize="25sp"
-            android:layout_marginTop="20dp"/>
+            android:textSize="25sp" />
 
 
     </LinearLayout>

@@ -5,7 +5,7 @@ buildscript {
     ext.kotlin_version = "1.4.32"
     repositories {
         google()
-        mavenCentral()
+        mavenCentral( url: "https://jitpack.io")
         jcenter()
 
     }
