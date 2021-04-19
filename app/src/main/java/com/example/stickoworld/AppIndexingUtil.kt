@@ -15,7 +15,7 @@ object AppIndexingUtil {
     private const val CONTENT_PROVIDER_STICKER_PACK_NAME = "Firebase Storage Content Pack"
     private const val TAG = "AppIndexingUtil"
     private const val FAILED_TO_INSTALL_STICKERS = "Failed to install stickers"
-    lateinit var AppIndexingUtil: AppIndexingUtil
+
     fun setStickers(context: Context?, firebaseAppIndex: FirebaseAppIndex) {
         try {
             val stickers = getIndexableStickers()
@@ -43,7 +43,7 @@ object AppIndexingUtil {
     @Throws(IOException::class, FirebaseAppIndexingInvalidArgumentException::class)
     private fun getIndexableStickerPack(stickers: List<Indexable>): Indexable {
         val indexableBuilder =
-            getIndexableBuilder(StickersDataFactory.getAllStickerReference().get(0).getURL(),
+            getIndexableBuilder(StickersDataFactory().getAllStickerReference().get(0).getURL(),
                 STICKER_PACK_URL_PATTERN,
                 stickers.size)
         indexableBuilder.put("hasSticker", *stickers.toTypedArray())
@@ -53,9 +53,9 @@ object AppIndexingUtil {
     @Throws(IOException::class, FirebaseAppIndexingInvalidArgumentException::class)
     private fun getIndexableStickers(): List<Indexable> {
         val indexableStickers: MutableList<Indexable> = ArrayList()
-        for (i in 1 until StickersDataFactory.getAllStickerReference().size()) {
+        for (i in 1 until StickersDataFactory().getAllStickerReference().size) {
             val indexableStickerBuilder =
-                getIndexableBuilder(StickersDataFactory.getAllStickerReference().get(i).getURL(),
+                getIndexableBuilder(StickersDataFactory().getAllStickerReference().get(i).getURL(),
                     STICKER_URL_PATTERN,
                     i)
             indexableStickerBuilder.put("keywords",
@@ -71,7 +71,7 @@ object AppIndexingUtil {
 
     @Throws(IOException::class)
     private fun getIndexableBuilder(
-        stickerURL: String,
+        stickerURL: String?,
         urlPattern: String,
         index: Int,
     ): Indexable.Builder {

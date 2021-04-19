@@ -11,17 +11,16 @@ import com.google.firebase.storage.FirebaseStorage
 
 @Suppress("DEPRECATION")
 class StickerGallery : Activity() {
-    lateinit var storage: FirebaseStorage
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stickergallery)
 
         val mBtnAddSticker = findViewById<Button>(R.id.cartoon)
         mBtnAddSticker.setOnClickListener(View.OnClickListener {
-            AppIndexingUpdateService.enqueueWork(
+            AppIndexingUpdateService().enqueueWork(
                 this@StickerGallery
             )
-        })
+        });
     }
 
 
