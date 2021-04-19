@@ -5,7 +5,7 @@
     android:id="@+id/sign_in_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#100F0F"
+    android:background="#ECE7E7"
     android:padding="40dp"
     tools:context=".GoogleSignIn">
 
@@ -53,8 +53,8 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/aladin"
             android:gravity="left"
-            android:text="Hello,There"
-            android:textColor="#FBFBFB"
+            android:text="   Hello, There"
+            android:textColor="@color/yellow"
             android:textSize="40sp"
             android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"

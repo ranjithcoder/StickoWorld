@@ -31,21 +31,13 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/cartoon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="     Cartoon"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:clickable="true"/>
 
-                <Button
-                    android:id="@+id/cartoon"
-                    android:layout_width="67dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginVertical="-8dp"
-                    android:layout_marginStart="10dp"
-                    android:text="add"
-                    android:textColor="@color/white"
-                    android:textSize="15dp" />
 
                 <HorizontalScrollView
                     android:layout_width="wrap_content"
@@ -487,7 +479,7 @@
                     android:id="@+id/citytool"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sticko"
+                    android:text="Stiker"
                     android:textColor="@color/gyellow"
                     android:textSize="22sp" />
 
@@ -495,7 +487,7 @@
                     android:id="@+id/citytoolm"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/world"
+                    android:text="Gallery"
                     android:textColor="#424242"
                     android:textSize="22sp" />
 

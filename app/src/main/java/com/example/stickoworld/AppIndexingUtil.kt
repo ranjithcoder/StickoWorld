@@ -79,13 +79,8 @@ object AppIndexingUtil {
         return Indexable.Builder("StickerPack") // name of the sticker pack
             .setName(CONTENT_PROVIDER_STICKER_PACK_NAME) // Firebase App Indexing unique key that must match an intent-filter
             // (e.g. mystickers://stickers/pack/0)
-            .setUrl(url) // (Optional) - Defaults to the first sticker in "hasSticker"
-            // displayed as a category image to select between sticker packs that should
-            // be representative of the sticker pack
-            //.setImage(contentUri.toString())
-            .setImage(stickerURL) // (Optional) - Defaults to a generic phrase
-            // content description of the image that is used for accessibility
-            // (e.g. TalkBack)
+            .setUrl(url)
+            .setImage(stickerURL)
             .setDescription("Indexable description")
     }
 }
